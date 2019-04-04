@@ -17,7 +17,7 @@ $( document ).ready(function() {
 
 
       //Sets the number to random
-      targetNumber = Math.floor(Math.random() * (30) +1);
+      targetNumber = Math.floor(Math.random() * (75) +1);
       $(".random").text("Target Number: " + targetNumber);
   
       //Set each crystal to a random number
