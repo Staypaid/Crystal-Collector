@@ -70,33 +70,6 @@ $( document ).ready(function() {
       $(".total-score").text(" " + totalScore);
       match();
     });
-
-  //    //trying something 
-  //    $(".emerald").on("click", function () {
-
-  //     var crystalValue = ($(this).attr("data-crystalvalue"));
-  //     crystalValue = parseInt(crystalValue);
-  
-  
-  //     // shows the number of wins or losses in the counter, and increase the value of the counter evry time you win or lose
-  
-  //     counter += crystalValue;
-  //     $("#score").text(counter)
-  //     if (counter === targetNumber) {
-  //         winCounter += 1;
-  //         $("#wins").text(winCounter);
-  //         reset()
-  
-  //     }
-  
-  //     else if (counter >= targetNumber) {
-  //         loseCounter += 1;
-  //         $("#losses").text(loseCounter);
-  //         reset()
-  //     }
-  
-  // });
-  
       // Defining function to determine if the user wins/loses
       var match = function() {
           if (totalScore === targetNumber) {
