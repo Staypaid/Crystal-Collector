@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crystals Collector</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <audio autoplay> 
+        <source src="../unit-4-game/assets/05 Turquoise Hill Zone.mp3">
+        
+      </audio>
+</head>
+<body>
+
+    <div class = "container">
+        <div class = "row1">
+            <h1 class = "header">Crystals Collector!</h1><br><br>
+        </div>
+
+        <div class = "row2">
+            <div class = "instructions"> 
+                <h2>How to play: </h2><br>
+                <h3>
+                    Each has been assigned a random value, the value of each crystal is hidden hidden until it has been clicked.<br><br>
+                    Click the crystals to add to your total score.<br><br>
+                    Match the random number without going over to win.<br><br>
+                    Good luck!<br>
+                </h3>
+            </div>
+
+        </div>
+
+        <div class = "row3">
+            <div class = "col-sm-12">
+                <img src="assets/images/diamond.png" class ="diamond" width="80px" height="80px">
+                <img src="assets/images/emerald.png" class ="emerald" width="80px" height="80px">
+                <img src="assets/images/ruby.png" class ="ruby" width="80px" height="80px">
+                <img src="assets/images/sapphire.png" class ="sapphire" width="80px" height="80px">
+            </div>
+
+        </div>
+
+        <div class = "row4">
+            <div class = "col-lg-4">
+                <div class = "random"> Random Number is: </div>
+            </div>
+
+            <div class = "col-lg-4">
+                <div class = "results">
+                    <h3>
+                        Wins: <span class = "wins"></span>
+                        Losses: <span class = "losses"></span>
+                    </h3>
+                </div>
+            </div>
+
+            <div class = "col-lg-4">
+                <div>
+                    <h3>
+                    
+                         Score: <span class = "total-score"></span>
+                    </h3>
+                </div>
+
+            </div>
+        </div>
+        <div id="audioplayer"><audio id="myAudio" controls autoplay>
+            <source src="../unit-4-game/assets/05 Turquoise Hill Zone.mp3" type="audio/mpeg">
+            
+          </audio>
+          </div>
+        
+
+
+    <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+    <script src="..//unit-4-game/assets/javascript/game.js"></script>
+
+    
+</div>
+
+
+
+    
+</body>
+</html>

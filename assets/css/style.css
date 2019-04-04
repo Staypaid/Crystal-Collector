@@ -1,0 +1,80 @@
+body{
+    background-image: url(../images/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.container{
+    background-color: transparent;
+    background-image: url(background1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat center center fixed;
+    
+}
+
+.header{
+    font-size: 50px;
+    color: hsl(320, 20%, 94%);
+    text-shadow: 3px 3px rgb(243, 83, 195);
+}
+
+#gameNameb{
+    
+    font-weight: bold;
+
+}
+
+.h3{
+    text-align: center;
+    background-color: white;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.instructions{
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: white;
+    text-shadow: 1px 1px rgb(243, 83, 195);
+    
+    background-color: white;
+    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(250, 248, 248, 0.203);
+}
+
+.click{
+  width:80px;
+  height:80px;
+}
+
+.row1{
+    
+    font-weight: bold;
+}
+
+.row3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.row4 {
+  color: white;
+  text-shadow: 1px 1px rgb(243, 83, 195);
+  font-size: 22px;
+  margin-bottom: 50px;
+  background-color: white;
+    background: rgb(204, 204, 204); 
+    background: rgba(250, 248, 248, 0.203);
+}
+.score {
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px rgb(243, 83, 195);
+    background-color: white;
+    background: rgb(204, 204, 204); 
+    background: rgba(250, 248, 248, 0.01);
+    text-align: center;
+}
+
+
+
